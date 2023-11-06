@@ -1,5 +1,5 @@
 //
-//  TableViewController.swift
+//  RxTableViewController.swift
 //  RxSwiftPractice
 //
 //  Created by walkerhilla on 2023/11/05.
@@ -10,7 +10,7 @@ import SnapKit
 import RxSwift
 import RxCocoa
 
-class TableViewController: UIViewController, UITableViewDelegate {
+class RxTableViewController: UIViewController, UITableViewDelegate {
 
   let tableView: UITableView = UITableView(frame: .zero, style: .insetGrouped)
   let disposeBag = DisposeBag()

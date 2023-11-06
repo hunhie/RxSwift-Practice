@@ -1,5 +1,5 @@
 //
-//  PickerViewController.swift
+//  RxPickerViewController.swift
 //  RxSwiftPractice
 //
 //  Created by walkerhilla on 11/6/23.
@@ -10,7 +10,7 @@ import SnapKit
 import RxSwift
 import RxCocoa
 
-final class PickerViewController: ViewController {
+final class RxPickerViewController: UIViewController {
   
   let pickerView1 = UIPickerView()
   let pickerView2 = UIPickerView()
